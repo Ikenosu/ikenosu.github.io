@@ -270,6 +270,10 @@ body:not(.user-is-tabbing) a:focus {
     border-bottom: 1px solid var(--pink);
 }
 
+.link__text:hover {
+    color: currentColor;
+}
+
 .link__text::after {
     content: '';
     display: block;
