@@ -440,6 +440,14 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Work ----- */
 /* --------------------------------------- */
 
+.work__card {
+    background: #1c2533; /* slightly lighter than your page background */
+    border-radius: 16px;
+    padding: 2.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
 .work__box {
     display: flex;
     align-items: center;
