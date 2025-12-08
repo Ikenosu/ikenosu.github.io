@@ -262,6 +262,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .link__text {
     position: relative;
+    z-index: 1;
     display: inline-block;
     padding: .6rem;
     color: inherit;
@@ -278,7 +279,7 @@ body:not(.user-is-tabbing) a:focus {
     right: 100%;
     background: var(--white);
     height: 100%;
-    z-index: -1;
+    z-index: 0;
     transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
 }
 
@@ -506,7 +507,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__card {
-    background: #202020;
+    background: #0b0b0b;
     border-radius: 16px;
     padding: 2.5rem;
     border: 1px solid rgba(255, 255, 255, 0.08);
